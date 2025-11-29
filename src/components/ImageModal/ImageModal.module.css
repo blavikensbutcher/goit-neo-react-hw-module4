@@ -1,0 +1,47 @@
+.img {
+    position: relative;
+    padding-top: 20px
+}
+.btn {
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    background-color: transparent;
+    border: none;
+
+}
+
+.photographer {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.statistic {
+    display: flex;
+    justify-content: left;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.user {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-right: 5px;
+}
+
+.username {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0 0 0 ;
+}
+
+.likes {
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px
+}

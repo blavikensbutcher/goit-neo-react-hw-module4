@@ -1,0 +1,8 @@
+#root {
+    background-image: linear-gradient(160deg, darkgrey 50%, darksalmon 80%);
+    background-repeat: repeat;
+}
+
+body {
+    background-color: darkgrey;
+}

@@ -1,0 +1,15 @@
+.bar {
+    width: 50%;
+    height: 50%;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.wrap {
+    position: absolute;
+    background-color: rgba(117, 190, 218, 0);
+    margin: auto;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
