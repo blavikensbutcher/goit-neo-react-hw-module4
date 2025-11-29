@@ -47,9 +47,14 @@ function App() {
   return (
     <>
       <SearchBar onSearch={setQuery} setPage={setPage} />
-      {page === 1 ? loading && <Loader /> : null}
+
       <ImageGallery data={response} />
-      {response.length > 0 && <LoadMoreBtn setPage={setPage} page={page} query={query} />}
+
+      {loading && <Loader />}
+
+      {response.length > 0 && !loading && (
+        <LoadMoreBtn setPage={setPage} page={page} query={query} setIsLoading={setLoading} />
+      )}
       <Toaster position={'top-right'} />
     </>
   );
