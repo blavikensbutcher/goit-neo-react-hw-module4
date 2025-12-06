@@ -1,16 +1,9 @@
 import css from './LoadMoreBtn.module.css';
 
-export const LoadMoreBtn = ({ setPage, page, query, setIsLoading }) => {
+export const LoadMoreBtn = ({ onClick }) => {
   return (
-    <button
-      className={css.btn}
-      type="submit"
-      onClick={() => {
-        setPage(page + 1);
-        setIsLoading(true);
-      }}
-    >
-      Load More {query}?
+    <button className={css.btn} type="button" onClick={onClick}>
+      Load More
     </button>
   );
 };
